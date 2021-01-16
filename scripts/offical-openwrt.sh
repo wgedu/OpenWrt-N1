@@ -101,6 +101,11 @@ git clone --depth=1 https://github.com/project-openwrt/openwrt-tmate
 # Add subconverter
 git clone --depth=1 https://github.com/tindy2013/openwrt-subconverter
 
+# Add wireless drivers by project-openwrt
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/mt7601u-ap
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/rtl8812au-ac
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/rtl8821cu
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/rtl88x2bu
 popd
 
 # Mod zzz-default-settings
